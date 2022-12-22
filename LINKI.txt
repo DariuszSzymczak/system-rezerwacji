@@ -1,0 +1,2 @@
+slider: https://caferati.me/demo/react-awesome-slider
+how to  firestore: https://www.freecodecamp.org/news/how-to-use-the-firebase-database-in-react/

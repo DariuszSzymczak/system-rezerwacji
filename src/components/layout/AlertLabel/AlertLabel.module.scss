@@ -1,0 +1,14 @@
+@import "~/src/styles/colors.scss";
+.alertLabel {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 15px 0px;
+  color: red;
+  font-size: 25px;
+}

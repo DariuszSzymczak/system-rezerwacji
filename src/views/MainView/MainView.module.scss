@@ -1,0 +1,41 @@
+@import "~/src/styles/colors.scss";
+
+.mainBox {
+  width: 70%;
+  margin: auto;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+}
+
+.hotelDesc {
+  text-align: center;
+}
+
+.boxedSection {
+  padding: 60px;
+}
+
+#rentRoomButton {
+  transition: 0.6s;
+  background-color: $lightGreen;
+  width: 600px;
+  border-radius: 20px;
+  padding: 40px;
+  font-size: 30px;
+  margin: auto;
+  margin-bottom: 40px;
+  &:hover {
+    background-color: $darkGreen;
+  }
+}
+
+.kontaktBox {
+  background-color: $darkOrange;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+.rezerwacjeBox {
+  text-align: center;
+}

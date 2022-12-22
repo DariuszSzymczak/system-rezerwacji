@@ -1,0 +1,61 @@
+@import "~/src/styles/colors.scss";
+
+.RentFormModalGreybox {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.573);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.RentFormModal {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+}
+
+.RentFormHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.RentFormInput {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.dates {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.rentButton {
+  background-color: $lightGreen;
+  width: 100%;
+  padding: 15px 5px;
+  margin: 40px auto 10px auto;
+  font-weight: bold;
+  color: white;
+}
+
+.sendInfo {
+  margin-top: 30px;
+  font-weight: bold;
+}

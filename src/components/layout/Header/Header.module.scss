@@ -1,0 +1,13 @@
+@import "~/src/styles/colors.scss";
+.Header {
+  width: 100%;
+  background: $white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  img {
+    margin: 10px auto;
+    width: 50%;
+  }
+}

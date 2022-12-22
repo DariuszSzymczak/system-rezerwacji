@@ -1,0 +1,67 @@
+@import "~/src/styles/colors.scss";
+.outerBox,
+.roomTextBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  & > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.short {
+  width: 35%;
+}
+
+.half {
+  width: 50%;
+}
+
+.long {
+  width: 65%;
+}
+
+.roomTextBox {
+  margin-left: 20px;
+}
+
+.roomBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  & > img {
+    width: 200px;
+  }
+}
+
+.roomOuterBox {
+  width: 90%;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  & > img {
+    width: 200px;
+  }
+}
+
+.rentButton {
+  width: 300px;
+  padding: 60px 5px;
+  background-color: $lightGreen;
+  color: white;
+  font-size: 25px;
+  border-radius: 5px;
+  transition: 1s;
+  cursor: pointer;
+  &:hover {
+    background-color: $darkGreen;
+  }
+}

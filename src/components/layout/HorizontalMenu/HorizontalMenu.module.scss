@@ -1,0 +1,23 @@
+@import "~/src/styles/colors.scss";
+.HorizontalMenuBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px;
+  border-top: 1px solid $darkOrange;
+  border-bottom: 1px solid $darkOrange;
+  a {
+    text-decoration: none;
+    margin: auto 10px;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: $fontdark;
+    transition: 0.6s;
+    &:hover {
+      color: $darkGreen;
+    }
+  }
+}
